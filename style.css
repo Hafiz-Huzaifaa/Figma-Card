@@ -1,0 +1,117 @@
+@import url("https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&family=Sora:wght@100..800&display=swap");
+
+div.card {
+  width: 290px;
+  height: 380px;
+  font-family: "Jost", sans-serif;
+  cursor: pointer;
+  border-radius: 10px;
+  width: 290px;
+  margin: 10px 0;
+  border-radius: 10px;
+  /* position: relative; */
+}
+
+.card .timer {
+  z-index: 1;
+  position: absolute;
+  right: 0;
+  top: -15px;
+  height: 40px;
+  background-color: #2636d9;
+  border-radius: 25px;
+  font-weight: 500;
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: #ffffff;
+  width: max-content;
+  padding-inline: 15px;
+}
+
+div.card:hover {
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.135);
+}
+
+div.top image {
+  border-radius: 10px;
+}
+
+div.bottom {
+  padding: 50px 10px 10px 10px;
+  font-weight: 500;
+  font-size: 16px;
+}
+
+div.bottom .one {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+div.bottom .one .left {
+  font-weight: 600;
+  font-size: 20px;
+  color: #121212;
+}
+
+div.bottom .one .right {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+  font-size: 14px;
+  color: #8e8e8e;
+}
+
+div.two {
+  display: flex;
+  justify-content: space-between;
+}
+
+div.two .left {
+  color: #4a4949;
+}
+
+div.two .right {
+  color: #aaaaaa;
+}
+
+div.three {
+  color: #b600d1;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.card .top {
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+
+.icon {
+  position: absolute;
+  bottom: -40px;
+}
+
+.duck {
+  border: 8px solid white;
+  border-radius: 50px;
+  bottom: 2px;
+}
+.main_icon {
+  position: relative;
+}
+
+.icon .main_icon .click {
+  position: absolute;
+  right: 2px;
+}
+
+div.main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; /* row hamesha left se start hogi */
+  gap: 20px;                 
+}
+
